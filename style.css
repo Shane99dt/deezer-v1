@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 50px;
+  border-bottom: 2px solid rgb(198, 192, 170);
+}
+
+nav .logo{
+  /* flex-direction: row; */
+}
+
+a{
+  text-decoration: none;
+
+}
+
+nav a{
+  color: black;
+  padding: 8px 15px 2px;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+nav .a-connexion{
+  border-radius: 50px;
+  border: 1px solid #2d96c7;
+  color: #2d96c7;
+  padding: 8px 25px 2px 25px;
+
+}
+
+nav .a-inscription{
+  border-radius: 50px;
+  border: 1px solid #2d96c7;
+  color: #fff;
+  background-color: #2d96c7;
+  padding: 8px 25px 2px 25px;
+
+}
+
+
+/* header */
+header{
+  display: flex;
+  height: 370px;
+  overflow: hidden;
+  justify-content: space-around;
+  padding: 0 50px;
+}
+
+.head-art-1{
+  /* width: 50%; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.main-text{
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.second-text{
+  font-size: 25px;
+  font-weight: bold;
+  color: #ee5465;
+  margin: 10px 10px 15px 0;
+}
+
+header a{
+
+}
