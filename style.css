@@ -20,7 +20,6 @@ nav .logo{
 
 a{
   text-decoration: none;
-
 }
 
 nav a{
@@ -157,7 +156,7 @@ header a{
 
 /* section everyday */
 .sec-everyday{
-  height: 200px;
+  height: 180px;
   background-color: #ee5465;
   display: flex;
   flex-direction: row;
@@ -176,9 +175,49 @@ header a{
   font-size: 25px;
   color: white;
   font-weight: bold;
-  margin: 20px 0 40px;
+  margin: 0px 0 26px;
 }
 
 .everyday-des p{
   color: #f9f9f9;
+  padding-right: 75px;
+}
+
+
+
+
+
+/* footer */
+footer{
+  background-color: black;
+}
+
+.sec-application{
+  display: flex;
+  justify-content: center;
+}
+
+.google-play{
+  margin-top: 33px;
+}
+
+.sec-footer-main{
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+}
+
+.sec-footer-main a{
+  color: #f9f9f9;
+}
+
+.deezer-f, .explorer-f, .who-f, .legal-f{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.f-topics{
+  color: #57555f;
+  margin-bottom: 20px;
 }
