@@ -190,6 +190,7 @@ header a{
 /* footer */
 footer{
   background-color: black;
+  padding-bottom: 30px;
 }
 
 .sec-application{
@@ -209,6 +210,7 @@ footer{
 
 .sec-footer-main a{
   color: #f9f9f9;
+  margin-bottom: 15px;
 }
 
 .deezer-f, .explorer-f, .who-f, .legal-f{
@@ -217,7 +219,18 @@ footer{
   justify-content: flex-start;
 }
 
-.f-topics{
+a.f-topics{
   color: #57555f;
   margin-bottom: 20px;
 }
+
+.sec-last-f{
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 50px 100px;
+}
+
+.social a{
+  margin: 15px;
+}
+
