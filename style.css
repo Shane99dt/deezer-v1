@@ -13,10 +13,10 @@ nav{
   border-bottom: 2px solid rgb(198, 192, 170);
 }
 
-nav .logo{
-  /* flex-direction: row; */
-  /* flex-grow: 1; */
-}
+/* nav.logo{
+  flex-direction: row;
+  flex-grow: 1;
+} */
 
 a{
   text-decoration: none;
@@ -165,6 +165,13 @@ header a{
 
 .everyday-svg{
   width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+
+.svg-img{
+  margin-left: 20px;
 }
 
 .everyday-des{
@@ -183,7 +190,62 @@ header a{
   padding-right: 75px;
 }
 
+/* everyday end */
 
+/* profit deezer */
+
+.sec-profit h2{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin: 80px 40px 40px;
+}
+
+
+
+
+/* profit deezer end */
+
+/* announces */
+
+article.announces{
+  background-color: #f0ececc1;
+  margin-bottom: 10px;
+  padding: 25px 50px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.announces-topics{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.red-text{
+  color: red;
+}
+
+.a-announces{
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 8px 20px 0px;
+
+}
+
+/* .announces-container{
+  display: flex;
+  justify-content: space-between;
+} */
+
+
+
+
+/* announces end */
 
 
 
