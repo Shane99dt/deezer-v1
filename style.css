@@ -24,7 +24,10 @@ a{
 
 nav a{
   color: black;
-  padding: 8px 15px 2px;
+  /* padding: 8px 15px 2px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-transform: capitalize;
   font-weight: bold;
   margin: 0 10px;
@@ -210,15 +213,21 @@ header a{
 
 article.announces{
   background-color: #f0ececc1;
-  margin-bottom: 10px;
-  padding: 25px 50px 20px;
+  margin-top: 10px;
+  padding: 25px 150px 20px 200px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .announces-topics{
   font-size: 25px;
   font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.announces-text{
+  font-size: 18px;
 }
 
 .red-text{
@@ -226,17 +235,22 @@ article.announces{
 }
 
 .a-announces{
-  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: black;
   border: 2px solid black;
   border-radius: 50px;
-  text-align: center;
   font-weight: bold;
   font-size: 12px;
-  padding: 8px 20px 0px;
-
+  padding: 8px 40px;
 }
 
+.annuel-plus{
+  color: deepskyblue;
+  font-size: 12px;
+  font-weight: bold;
+}
 /* .announces-container{
   display: flex;
   justify-content: space-between;
