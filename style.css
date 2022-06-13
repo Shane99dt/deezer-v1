@@ -17,6 +17,7 @@ nav{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  trans
 }
 
 a{
@@ -171,7 +172,7 @@ header a{
   width: 50%;
   display: flex;
   justify-content: flex-end;
-  padding-right: 40px;
+  padding-right: 40px;  
 }
 
 .svg-img{
@@ -212,7 +213,7 @@ header a{
 }
 
 .banner{
-  width: 300px;
+  width: 250px;
   height: 300px;
   background-color: white;
   color: black;
@@ -228,7 +229,7 @@ header a{
   font-weight: bold;
   font-size: 24px;
   margin-top: 20px ;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-transform: capitalize;
 }
 
@@ -239,22 +240,46 @@ header a{
   color: white;
 }
 
-.premium::before{
+/* .premium::before{
   content: attr("slkdfhj");
   padding: -50px;
-}
+} */
+/* add  banners info icons with before */
 
 .banners-price{
   font-size: 20px;
   font-weight: bold;
-  margin: 20px;
+  margin: 10px 0 20px;
 }
 
+.banners-price::after{
+  content: "/mois";
+  margin-top: 24px;
+  margin-left: -46px;
+  color: black;
+  position: absolute;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.premium .banners-price::after{
+  color: white;
+}
 
 p.banners-offer-notice{
   font-size: 10px;
   text-align: center;
   padding: 20px 200px;
+}
+
+.profit-banners .checked::before{
+  position: absolute;
+  content: "✓";
+  margin-right: 10px;
+}
+
+.banners-info .crossed{
+  content: "✘";
 }
 
 
