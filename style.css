@@ -13,11 +13,15 @@ nav{
   border-bottom: 2px solid rgb(198, 192, 170);
 }
 
+.burger{
+  display: none;
+}
+
 .nav-links{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  trans
+  /* trans */
 }
 
 a{
@@ -172,7 +176,7 @@ header a{
   width: 50%;
   display: flex;
   justify-content: flex-end;
-  padding-right: 40px;  
+  padding-right: 40px;
 }
 
 .svg-img{
@@ -214,31 +218,48 @@ header a{
 
 .banner{
   width: 250px;
-  height: 300px;
+  height: 500px;
   background-color: white;
   color: black;
   border: none;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
+  align-content: center;
   box-shadow: 0 0 10px 3px rgb(183, 182, 182);
+}
+
+.banners-info {
+  margin-top: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .banners-topic{
   font-weight: bold;
   font-size: 24px;
-  margin-top: 20px ;
+  margin-top: 60px ;
   margin-bottom: 10px;
   text-transform: capitalize;
 }
 
 .premium{
-  background-color: rgb(62, 150, 244);
+  background-color: #2d96c8;
   margin: 0 10px;
   box-shadow: none;
   color: white;
 }
+
+.banners-bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  bottom: -100px;
+}
+
+
 
 /* .premium::before{
   content: attr("slkdfhj");
@@ -273,13 +294,15 @@ p.banners-offer-notice{
 }
 
 .profit-banners .checked::before{
-  position: absolute;
   content: "✓";
-  margin-right: 10px;
+  position: absolute;
+  margin-left: -18px;
 }
 
-.banners-info .crossed{
+.banners-info .crossed::before{
   content: "✘";
+  position: absolute;
+  margin-left: -18px;
 }
 
 
@@ -378,11 +401,169 @@ a.f-topics{
 
 .sec-last-f{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin: 80px 50px 100px;
+  align-items: center;
+}
+
+article.deezer{
+  width: 50%;
+  text-align: center;
+}
+article.social{
+  width: 20%;
+}
+
+article.copyrights{
+  width: 20%;
 }
 
 .social a{
   margin: 15px;
 }
 
+
+
+
+
+
+/* responsive */
+
+@media(max-width:768px){
+
+  nav{
+    position: relative;
+    justify-content: center;
+  }
+
+  .nav-links{
+    display: none;
+  }
+
+  .burger{
+    display: block;
+    position: absolute;
+    height: 20px;
+    top: calc(50% - 15px);
+    right: 15px;
+  }
+
+  header{
+    padding-top: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .header-a{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+
+
+
+  .article-mobile{
+    display: none;
+  }
+
+  .article-des{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+
+
+
+
+  .profit-banners{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+
+
+
+
+
+
+  p.announces-text{
+    display: none;
+
+  }
+
+  article.announces{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sec-footer-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  article.sec-footer-main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .sec-last-f{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  article.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+
+
+
+
+
+}
