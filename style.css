@@ -7,16 +7,17 @@ body{
 
 nav{
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
-  padding: 20px 50px;
+  padding: 20px 50px 20px 80px;
   border-bottom: 2px solid rgb(198, 192, 170);
 }
 
-/* nav.logo{
+.nav-links{
+  display: flex;
   flex-direction: row;
-  flex-grow: 1;
-} */
+  justify-content: space-around;
+}
 
 a{
   text-decoration: none;
@@ -78,7 +79,7 @@ header{
 .second-text{
   font-size: 25px;
   font-weight: bold;
-  color: #ee5465;
+  color: #ef5466;
   margin: 10px 10px 15px 0;
 }
 
@@ -94,7 +95,7 @@ header a{
 .deezer-premium{
   border: 1px solid transparent;
   color: #fff;
-  background-color: #ee5465;
+  background-color: #ef5466;
 }
 
 .deezer-free{
@@ -160,7 +161,7 @@ header a{
 /* section everyday */
 .sec-everyday{
   height: 180px;
-  background-color: #ee5465;
+  background-color: #ef5466;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -198,13 +199,63 @@ header a{
 /* profit deezer */
 
 .sec-profit h2{
-  font-size: 25px;
+  font-size: 35px;
   font-weight: bold;
   text-align: center;
-  margin: 80px 40px 40px;
+  margin: 120px 40px 40px;
+}
+
+.profit-banners{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.banner{
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  color: black;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 10px 3px rgb(183, 182, 182);
+}
+
+.banners-topic{
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 20px ;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.premium{
+  background-color: rgb(62, 150, 244);
+  margin: 0 10px;
+  box-shadow: none;
+  color: white;
+}
+
+.premium::before{
+  content: attr("slkdfhj");
+  padding: -50px;
+}
+
+.banners-price{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
 }
 
 
+p.banners-offer-notice{
+  font-size: 10px;
+  text-align: center;
+  padding: 20px 200px;
+}
 
 
 /* profit deezer end */
@@ -247,7 +298,7 @@ article.announces{
 }
 
 .annuel-plus{
-  color: deepskyblue;
+  color: #2d96c8;
   font-size: 12px;
   font-weight: bold;
 }
