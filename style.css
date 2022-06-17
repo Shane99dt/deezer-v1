@@ -37,7 +37,7 @@ nav a{
   text-transform: capitalize;
   font-weight: bold;
   margin: 0 10px;
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -94,7 +94,7 @@ header a{
   text-align: center;
   text-transform: capitalize;
   padding: 10px 25px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .deezer-premium{
@@ -138,12 +138,12 @@ header a{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .topic-des{
   width: 100%;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   color: #32323d;
 }
@@ -156,7 +156,7 @@ header a{
 
 .semi-topic-des{
   color: #32323d;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   line-height: 20px;
   margin-bottom: 20px;
@@ -218,7 +218,7 @@ header a{
 
 .banner{
   width: 250px;
-  height: 500px;
+  height: 550px;
   background-color: white;
   color: black;
   border: none;
@@ -305,6 +305,30 @@ p.banners-offer-notice{
   margin-left: -18px;
 }
 
+.banners-profit{
+  border: 1px solid transparent;
+  border-radius: 25px;
+  background-color: #ef5466;
+  padding: 10px 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.free-banner .free{
+  background-color: #f0ececc1;
+}
+
+.banners-plus-premium{
+  padding: 20px 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.banners-plus-blue{
+  padding: 20px 40px;
+  color: #2d96c8;
+  font-weight: bold;
+}
 
 /* profit deezer end */
 
@@ -511,22 +535,6 @@ article.copyrights{
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   footer{
     display: flex;
     flex-direction: column;
@@ -559,11 +567,5 @@ article.copyrights{
     flex-direction: row;
     justify-content: center;
   }
-
-
-
-
-
-
 
 }
