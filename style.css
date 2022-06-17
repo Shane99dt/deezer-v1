@@ -485,10 +485,30 @@ article.copyrights{
   .header-a{
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
   }
 
+  .header-a a{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
+  .head-art-2 img{
+    height: 600px;
+  }
+  .head-art-2{
+    height: 350px;
+    overflow: hidden;
+  }
+
+  .sec-deezer-description{
+    height: fit-content;
+    padding: 20px 0;
+  }
 
 
   .article-mobile{
@@ -500,9 +520,22 @@ article.copyrights{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: fit-content;
+    margin: 0 10px;
   }
 
+  .sec-everyday{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+  }
 
+  .everyday-des p{
+    font-weight: 350;
+  }
 
 
 
