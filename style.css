@@ -442,13 +442,33 @@ article.copyrights{
   width: 20%;
 }
 
+.copyrights{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.copyrights select{
+  background-color: transparent;
+  color: #f9f9f9;
+  border: none;
+  padding-left: 5px;
+}
+
+.copyrights a{
+  text-decoration: none;
+  color: #57555f;
+}
+
 .social a{
   margin: 15px;
 }
 
-
-
-
+.social{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 
 /* responsive */
@@ -516,30 +536,47 @@ article.copyrights{
   }
 
   .article-des{
-    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: fit-content;
-    margin: 0 10px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .article-des article{
+    margin: 0;
+    padding: 10px 0 0;
+  }
+
+  .semi-topic-des{
+    margin: 0;
+    padding: 10px 0;
   }
 
   .sec-everyday{
     display: flex;
     flex-direction: column-reverse;
+    padding: 5px 10px;
+    height: auto;
+  }
+
+  .everyday-svg{
+    padding: 0 10px 20px;
+    width: 100%;
+    margin: 0;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px 0;
+    overflow-x: hidden;
+  }
+
+  .everyday-des{
+    width: auto;
+    padding: 10px;
+    text-align: center;
   }
 
   .everyday-des p{
-    font-weight: 350;
+    padding: 0 0 10px;
   }
-
-
-
-
 
   .profit-banners{
     display: flex;
@@ -550,14 +587,8 @@ article.copyrights{
   }
 
 
-
-
-
-
-
   p.announces-text{
     display: none;
-
   }
 
   article.announces{
@@ -565,13 +596,18 @@ article.copyrights{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding: 10px;
+  }
+
+  p.banners-offer-notice{
+    padding: 10px;
   }
 
 
   footer{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding: 0 30px;
   }
 
   .sec-footer-main{
@@ -592,7 +628,8 @@ article.copyrights{
   .sec-last-f{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin: 80px 10px 100px;
+    gap: 60px;
   }
 
   article.social{
