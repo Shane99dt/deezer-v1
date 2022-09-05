@@ -566,6 +566,7 @@ article.copyrights{
     margin: 0;
     align-items: center;
     overflow-x: hidden;
+    justify-content: center;
   }
 
   .everyday-des{
